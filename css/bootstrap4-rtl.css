@@ -4,5 +4,8 @@ Description: Bootstarp 4 RTL
 Author: Majazeh
 Author URI: https://majazeh.ir
 */
+.rtl {
+  direction: rtl;
+  text-align: right; }
 
 /*# sourceMappingURL=bootstrap4-rtl.css.map */

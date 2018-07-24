@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA;;;;;EAKE",
-"sources": ["../scss/source.scss"],
+"mappings": "AAEA;;;;;EAKE;ACPF,IAAK;EACJ,SAAS,EAAE,GAAG;EACd,UAAU,EAAE,KAAK",
+"sources": ["../scss/source.scss","../scss/_base.scss"],
 "names": [],
 "file": "bootstrap4-rtl.css"
 }
