@@ -3,3 +3,4 @@
 /.vscode
 /.vagrant
 npm-debug.log
+package-lock.json
