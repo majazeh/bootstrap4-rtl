@@ -5,14 +5,14 @@
 
 .page-link {
   margin-right: -$pagination-border-width;
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .page-item {
   &:first-child {
     .page-link {
       margin-right: 0;
-      margin-left: 0;
+      margin-left: auto;
       @include border-right-radius($border-radius);
     }
   }
