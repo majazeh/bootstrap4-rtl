@@ -1,0 +1,44 @@
+.rtl{
+  .btn-group,
+  .btn-group-vertical {
+    .btn + .btn,
+    .btn + .btn-group,
+    .btn-group + .btn,
+    .btn-group + .btn-group {
+      margin-left: auto;
+      margin-right: -$btn-border-width;
+    }
+  }
+
+  .btn-group {
+    > .btn:first-child {
+      margin-right: 0;
+      margin-left: auto;
+      border-top-right-radius: 0.25rem;
+      border-bottom-right-radius: 0.25rem;
+    }
+    > .btn:not(:last-child):not(.dropdown-toggle),
+    > .btn-group:not(:last-child) > .btn {
+      @include border-left-radius(0);
+    }
+
+    > .btn:not(:first-child),
+    > .btn-group:not(:first-child) > .btn {
+      @include border-right-radius(0);
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+    }
+  }
+
+}
+
+//check later
+.rtl .dropdown-toggle-split::after,
+.rtl .dropup .dropdown-toggle-split::after,
+.rtl .btn-group-vertical > .btn + .btn,
+.rtl .btn-group-vertical > .btn + .btn-group,
+.rtl .btn-group-vertical > .btn-group + .btn,
+.rtl .btn-group-vertical > .btn-group + .btn-group {
+  margin-right: 0;
+  margin-left: auto;
+}
