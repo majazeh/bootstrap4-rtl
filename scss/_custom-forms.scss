@@ -1,7 +1,7 @@
 .rtl
 {
 	.custom-control{
-		padding-left: initial;
+		padding-left: 0;
     	padding-right: $custom-control-gutter;
 	}
 	.custom-control-inline {
@@ -18,7 +18,7 @@
 	}
 	.custom-select {
 	    padding: $custom-select-padding-y $custom-select-padding-x $custom-select-padding-y ($custom-select-padding-x + $custom-select-indicator-padding);
-	   background: $custom-select-bg $custom-select-indicator no-repeat left $custom-select-padding-x center;;
+	    background: $custom-select-bg $custom-select-indicator no-repeat left $custom-select-padding-x center;;
 	    background-size: $custom-select-bg-size;
 	}
 	.custom-select[multiple], .custom-select[size]:not([size="1"]) {
