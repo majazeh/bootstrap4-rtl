@@ -1,0 +1,24 @@
+.rtl{
+  .form-check {
+    padding-right: $form-check-input-gutter;
+    padding-left: 0;
+}
+  .form-check-input {
+    margin-right: -$form-check-input-gutter;
+    margin-left:0;
+}
+}
+  .form-inline {
+    @include media-breakpoint-up(sm) {
+
+      .form-check {
+        padding-right: 0;
+        padding-left: 0;
+    }
+      .form-check-input {
+        margin-left: $form-check-input-margin-x;
+        margin-right: 0;
+    }
+  }
+
+}
