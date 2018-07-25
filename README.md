@@ -19,7 +19,7 @@ __min compile:__ `sass --watch scss/source.scss:css/bootstrap4-rtl.min.css --sty
 
 ## changed mixins
 
-- lists.scss
+- lists
 - border-radius
 
 ## used mixins
