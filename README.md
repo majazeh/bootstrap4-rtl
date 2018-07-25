@@ -11,6 +11,7 @@ __min compile:__ `sass --watch scss/source.scss:css/bootstrap4-rtl.min.css --sty
 - mixins
 - reboot
 - type
+- grid
 - forms
 - custom-forms
 - nav
@@ -23,6 +24,8 @@ __min compile:__ `sass --watch scss/source.scss:css/bootstrap4-rtl.min.css --sty
 
 - lists
 - border-radius
+- grid
+- grid-framework
 
 ## used mixins
 
