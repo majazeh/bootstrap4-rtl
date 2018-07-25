@@ -1,0 +1,43 @@
+.rtl
+{
+	.custom-control{
+		padding-left: initial;
+    	padding-right: $custom-control-gutter;
+	}
+	.custom-control-inline {
+    	margin-left: $custom-control-spacer-x;
+    	margin-right: auto;
+	}
+	.custom-control-label::before {
+    	right: -$custom-control-gutter;
+    	left: auto;
+	}
+	.custom-control-label::after {
+	    right: -$custom-control-gutter;
+	    left: auto;
+	}
+	.custom-select {
+	    padding: $custom-select-padding-y $custom-select-padding-x $custom-select-padding-y ($custom-select-padding-x + $custom-select-indicator-padding);
+	   background: $custom-select-bg $custom-select-indicator no-repeat left $custom-select-padding-x center;;
+	    background-size: $custom-select-bg-size;
+	}
+	.custom-select[multiple], .custom-select[size]:not([size="1"]) {
+	    padding-left: $custom-select-padding-x;
+	    padding-right: 0;
+	}
+	.custom-file-label::after {
+	    right:auto;
+	    left: 0;
+	    border-left:0;
+	    border-right: $custom-file-border-width solid $custom-file-border-color;
+	    border-radius: $custom-file-border-radius 0 0 $custom-file-border-radius;
+	}
+	.custom-range {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.custom-range::-ms-fill-upper {
+	    margin-left: 15px;
+	    margin-right: auto;
+	}
+}

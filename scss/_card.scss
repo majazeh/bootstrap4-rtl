@@ -1,0 +1,47 @@
+.rtl{
+	.card-link + .card-link {
+	    margin-right: $card-spacer-x;
+	    margin-left: auto;
+	}
+	@media (min-width: 576px) {
+		.card-group > .card + .card {
+	        margin-left: auto;
+	        border-left: 1px solid rgba(0, 0, 0, 0.125);
+	        margin-right: 0;
+	        border-right: 0;
+	    }
+		.card-group > .card:first-child {
+	        border-top-right-radius: $border-radius;
+	        border-bottom-right-radius: $border-radius;
+	        border-top-left-radius: 0;
+	        border-bottom-left-radius: 0;
+	    }
+	    .card-group > .card:first-child .card-img-top,
+	    .card-group > .card:first-child .card-header {
+	        border-top-right-radius: 0;
+	        border-top-left-radius: 0;
+	    }
+	    .card-group > .card:first-child .card-img-bottom,
+	    .card-group > .card:first-child .card-footer {
+	        border-bottom-right-radius: 0;
+	        border-bottom-left-radius: 0;
+	    }
+	    .card-group > .card:last-child {
+	        border-top-left-radius: $border-radius;
+	        border-bottom-left-radius: $border-radius;
+	        border-top-right-radius: 0;
+	        border-bottom-right-radius: 0;
+	    }
+	    .card-group > .card:last-child .card-img-top,
+	    .card-group > .card:last-child .card-header {
+	        border-top-left-radius: 0;
+	        border-top-right-radius: 0;
+	    }
+
+	    .card-group > .card:last-child .card-img-bottom,
+	    .card-group > .card:last-child .card-footer {
+	        border-bottom-left-radius: 0;
+	        border-bottom-right-radius: 0;
+	    }
+	}
+}
