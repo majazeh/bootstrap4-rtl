@@ -11,15 +11,13 @@ Author URI: https://majazeh.ir
     margin-right: 0;
     margin-left: auto; }
 
-.list-unstyled {
+.rtl .list-unstyled {
   padding-left: 0;
   padding-right: 0; }
-
-.list-inline {
+.rtl .list-inline {
   padding-left: 0;
   padding-right: 0; }
-
-.list-inline-item:not(:last-child) {
+.rtl .list-inline-item:not(:last-child) {
   margin-left: 0.5rem;
   margin-right: auto; }
 
@@ -235,6 +233,127 @@ Author URI: https://majazeh.ir
   left: auto;
   right: initial; }
 
+.rtl .btn-group .btn + .btn,
+.rtl .btn-group .btn + .btn-group,
+.rtl .btn-group .btn-group + .btn,
+.rtl .btn-group .btn-group + .btn-group,
+.rtl .btn-group-vertical .btn + .btn,
+.rtl .btn-group-vertical .btn + .btn-group,
+.rtl .btn-group-vertical .btn-group + .btn,
+.rtl .btn-group-vertical .btn-group + .btn-group {
+  margin-left: auto;
+  margin-right: -1px; }
+.rtl .btn-group > .btn:first-child {
+  margin-right: 0;
+  margin-left: auto;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem; }
+.rtl .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+.rtl .btn-group > .btn-group:not(:last-child) > .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+.rtl .btn-group > .btn:not(:first-child),
+.rtl .btn-group > .btn-group:not(:first-child) > .btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem; }
+
+.rtl .dropdown-toggle-split::after,
+.rtl .dropup .dropdown-toggle-split::after,
+.rtl .btn-group-vertical > .btn + .btn,
+.rtl .btn-group-vertical > .btn + .btn-group,
+.rtl .btn-group-vertical > .btn-group + .btn,
+.rtl .btn-group-vertical > .btn-group + .btn-group {
+  margin-right: 0;
+  margin-left: auto; }
+
+.rtl .input-group > .form-control + .form-control,
+.rtl .input-group > .form-control + .custom-select,
+.rtl .input-group > .form-control + .custom-file,
+.rtl .input-group > .custom-select + .form-control,
+.rtl .input-group > .custom-select + .custom-select,
+.rtl .input-group > .custom-select + .custom-file,
+.rtl .input-group > .custom-file + .form-control,
+.rtl .input-group > .custom-file + .custom-select,
+.rtl .input-group > .custom-file + .custom-file {
+  margin-right: -1px;
+  margin-left: auto; }
+.rtl .input-group > .form-control:not(:last-child),
+.rtl .input-group > .custom-select:not(:last-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: initial;
+  border-bottom-right-radius: initial; }
+.rtl .input-group > .form-control:not(:first-child),
+.rtl .input-group > .custom-select:not(:first-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: initial;
+  border-bottom-left-radius: initial; }
+.rtl .input-group > .custom-file:not(:last-child) .custom-file-label, .rtl .input-group > .custom-file:not(:last-child) .custom-file-label::after {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: initial;
+  border-bottom-right-radius: initial; }
+.rtl .input-group > .custom-file:not(:first-child) .custom-file-label {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: initial;
+  border-bottom-left-radius: initial; }
+.rtl .input-group-prepend .btn + .btn,
+.rtl .input-group-prepend .btn + .input-group-text,
+.rtl .input-group-prepend .input-group-text + .input-group-text,
+.rtl .input-group-prepend .input-group-text + .btn,
+.rtl .input-group-append .btn + .btn,
+.rtl .input-group-append .btn + .input-group-text,
+.rtl .input-group-append .input-group-text + .input-group-text,
+.rtl .input-group-append .input-group-text + .btn {
+  margin-right: -1px;
+  margin-left: auto; }
+.rtl .input-group-prepend {
+  margin-left: -1px;
+  margin-right: auto; }
+.rtl .input-group-append {
+  margin-right: -1px;
+  margin-left: auto; }
+.rtl .input-group > .input-group-prepend > .btn,
+.rtl .input-group > .input-group-prepend > .input-group-text,
+.rtl .input-group > .input-group-append:not(:last-child) > .btn,
+.rtl .input-group > .input-group-append:not(:last-child) > .input-group-text,
+.rtl .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.rtl .input-group > .input-group-append:last-child > .input-group-text:not(:last-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: initial;
+  border-bottom-right-radius: initial; }
+.rtl .input-group > .input-group-append > .btn,
+.rtl .input-group > .input-group-append > .input-group-text,
+.rtl .input-group > .input-group-prepend:not(:first-child) > .btn,
+.rtl .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
+.rtl .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.rtl .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: initial;
+  border-bottom-left-radius: initial; }
+
 .rtl .custom-control {
   padding-left: 0;
   padding-right: 1.5rem; }
@@ -367,5 +486,70 @@ Author URI: https://majazeh.ir
   border-bottom-right-radius: 0.2rem;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0; }
+
+.rtl .alert-dismissible {
+  padding-left: 4rem;
+  padding-right: 1.25rem; }
+  .rtl .alert-dismissible .close {
+    right: auto;
+    left: 0; }
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0; }
+  to {
+    background-position: 100% 0; } }
+.rtl .progress-bar-striped {
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent); }
+
+.rtl .list-group {
+  padding-left: 0;
+  padding-right: 0; }
+
+.rtl .close {
+  float: left; }
+
+.rtl .modal-header .close {
+  margin: -1rem auto -1rem -1rem; }
+.rtl .modal-footer > :not(:first-child) {
+  margin-left: auto;
+  margin-right: .25rem; }
+.rtl .modal-footer > :not(:last-child) {
+  margin-right: auto;
+  margin-left: .25rem; }
+
+.rtl .bs-popover-bottom .popover-header::before {
+  left: auto;
+  right: 50%;
+  margin-right: -0.5rem;
+  margin-left: auto; }
+
+.rtl .carousel-control-prev {
+  left: auto;
+  right: 0; }
+.rtl .carousel-control-next {
+  right: auto;
+  left: 0; }
+.rtl .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
+.rtl .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
+.rtl .carousel-indicators {
+  padding-left: 0;
+  padding-right: 0; }
+  .rtl .carousel-indicators li::before {
+    left: auto;
+    right: 0; }
+  .rtl .carousel-indicators li::after {
+    left: auto;
+    right: 0; }
+
+.rtl .embed-responsive .embed-responsive-item,
+.rtl .embed-responsive iframe,
+.rtl .embed-responsive embed,
+.rtl .embed-responsive object,
+.rtl .embed-responsive video {
+  left: auto;
+  right: 0; }
 
 /*# sourceMappingURL=bootstrap4-rtl.css.map */
