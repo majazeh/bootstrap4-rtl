@@ -1,0 +1,10 @@
+@keyframes progress-bar-stripes {
+  from { background-position: $progress-height 0; }
+  to { background-position: 100% 0; }
+}
+
+.rtl {
+	.progress-bar-striped {
+	  @include gradient-striped();
+	}
+}

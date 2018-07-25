@@ -1,0 +1,12 @@
+.rtl {
+    .embed-responsive {
+    .embed-responsive-item,
+    iframe,
+    embed,
+    object,
+    video {
+      left: auto;
+      right: 0;
+    }
+  }
+}

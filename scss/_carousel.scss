@@ -1,0 +1,33 @@
+.rtl {
+    .carousel-control-prev {
+    left: auto;
+    right: 0;
+  }
+  .carousel-control-next {
+    right: auto;
+    left: 0;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: $carousel-control-prev-icon-bg;
+  }
+  .carousel-control-next-icon {
+    background-image: $carousel-control-next-icon-bg;
+  }
+
+  .carousel-indicators {
+    padding-left: 0;
+    padding-right: 0;
+
+    li {
+      &::before {
+        left: auto;
+        right: 0;
+      }
+      &::after {
+        left: auto;
+        right: 0;
+      }
+    }
+  }
+}

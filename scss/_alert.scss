@@ -1,0 +1,10 @@
+.rtl {
+	.alert-dismissible {
+  padding-left: ($close-font-size + $alert-padding-x * 2);
+  padding-right: 1.25rem;
+  .close {
+    right: auto;
+    left: 0;
+  }
+}
+}

@@ -1,0 +1,12 @@
+.rtl {
+  .modal-header {
+    .close {
+      margin: (-$modal-header-padding) (auto) (-$modal-header-padding) (-$modal-header-padding);
+    }
+  }
+
+  .modal-footer {
+    > :not(:first-child) { margin-left: auto; margin-right: .25rem;}
+    > :not(:last-child) { margin-right: auto; margin-left: .25rem; }
+    }
+}

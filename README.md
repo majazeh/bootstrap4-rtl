@@ -14,20 +14,37 @@ __min compile:__ `sass --watch scss/source.scss:css/bootstrap4-rtl.min.css --sty
 - grid
 - forms
 - dropdown
+- button-group
+- input-group
 - custom-forms
 - nav
 - navbar
 - card
 - breadcrumb
 - pagination
+- alert
+- progress
+- list-group
+- close
+- modal
+- popover
+- carousel
+- utilities
 
 ## changed mixins
 
+- caret
 - lists
 - border-radius
-- grid
+- gradients
 - grid-framework
+- grid
+- progress
 
 ## used mixins
 
 - 
+
+## changed utilities
+
+- embed

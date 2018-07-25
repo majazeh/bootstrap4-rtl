@@ -1,0 +1,10 @@
+.rtl {
+    .bs-popover-bottom {
+    .popover-header::before {
+      left: auto;
+      right: 50%;
+      margin-right: ($popover-arrow-width / -2);
+      margin-left: auto;
+    }
+  }
+}
