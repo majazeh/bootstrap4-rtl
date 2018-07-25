@@ -3,7 +3,7 @@
 	    margin-right: $card-spacer-x;
 	    margin-left: auto;
 	}
-	@media (min-width: 576px) {
+	@include media-breakpoint-only(sm) {
 		.card-group > .card + .card {
 	        margin-left: auto;
 	        border-left: 1px solid rgba(0, 0, 0, 0.125);
