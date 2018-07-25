@@ -1,0 +1,24 @@
+
+.rtl{
+.dropdown-toggle {
+  @include caret;
+}
+
+
+.dropdown-menu {
+  right:0;
+  left: auto;
+  float: right;
+  text-align: right;
+}
+
+.dropdown-menu {
+  &[x-placement^="top"],
+  &[x-placement^="right"],
+  &[x-placement^="bottom"],
+  &[x-placement^="left"] {
+    left: auto;
+    right:initial;
+  }
+}
+}
