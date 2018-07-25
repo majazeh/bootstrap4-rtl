@@ -2,11 +2,11 @@
   .breadcrumb-item {
   + .breadcrumb-item {
     padding-right: $breadcrumb-item-padding;
-    padding-left: initial;
-
+    padding-left: 0;
+	}
     &::before {
       padding-left: $breadcrumb-item-padding;
-      padding-right: initial;
+      padding-right: 0;
     }
   }
 }

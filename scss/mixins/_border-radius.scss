@@ -17,6 +17,8 @@
   @if $enable-rounded {
     border-top-right-radius: $radius;
     border-bottom-right-radius: $radius;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
 }
 
@@ -31,5 +33,7 @@
   @if $enable-rounded {
     border-top-left-radius: $radius;
     border-bottom-left-radius: $radius;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
 }
