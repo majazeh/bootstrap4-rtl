@@ -1,0 +1,12 @@
+.rtl {
+  .breadcrumb-item {
+  + .breadcrumb-item {
+    padding-right: $breadcrumb-item-padding;
+    padding-left: initial;
+
+    &::before {
+      padding-left: $breadcrumb-item-padding;
+      padding-right: initial;
+    }
+  }
+}
