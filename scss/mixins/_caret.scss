@@ -1,6 +1,5 @@
 
   @mixin caret($direction: down) {
-    .rtl{
     @if $enable-caret {
       &::after {
         margin-right: $caret-width * .85;
@@ -12,6 +11,4 @@
       }
     }
   }
-}
-
 
