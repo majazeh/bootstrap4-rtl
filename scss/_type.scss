@@ -1,0 +1,12 @@
+.list-unstyled {
+  @include list-unstyled;
+}
+.list-inline {
+  @include list-unstyled;
+}
+.list-inline-item {
+  &:not(:last-child) {
+    margin-left: $list-inline-padding;
+    margin-right: auto;
+  }
+}
