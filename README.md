@@ -6,16 +6,18 @@ __min compile:__ `sass --watch scss/source.scss:css/bootstrap4-rtl.min.css --sty
 
 ## changed files
 
-- breadcrumb
-- custom-forms
+- functions
+- variables
+- mixins
+- reboot
+- type
 - forms
-- pagination
-- card
 - custom-forms
 - nav
 - navbar
-- reboot
-- type
+- card
+- breadcrumb
+- pagination
 
 ## changed mixins
 
