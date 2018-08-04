@@ -34,6 +34,7 @@ __min compile:__ `sass --watch scss/source.scss:css/bootstrap4-rtl.min.css --sty
 ## changed mixins
 
 - caret
+- pagination
 - lists
 - border-radius
 - gradients
